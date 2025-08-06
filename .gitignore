@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+dist/
+dist-ssr/
+*.local
+
+# Testing
+/coverage
+/.nyc_output
+/cypress/videos/
+/cypress/screenshots/
+
+# Production
+/build
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+out/
+
+# Coverage directory
+coverage/
+
+# Cache
+.cache/
